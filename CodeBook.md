@@ -18,19 +18,19 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 8. Create an output file that contains average of each activity per subject.
 
 ## Variables in the script
--subjectTest = subject_test.txt
--subjectTrain = subject_train.txt
--xTest = X_test.txt
--xTrain = X_train.txt
--yTest = Y_test.txt
--yTrain = Y_train.txt
--features = features.txt
--activityLabels = activity_labels.txt
--subjectAll = Merge subjectTest+subjectTrain
--xAll = Merge xTest+xTrain
--yAll = Merge yTest+yTrain
--complete = Merge subjectAll+xAll+yAll
--tidyComplete = Aggregated version of complete on average of features on each activity per subject
+1. subjectTest = subject_test.txt
+2. subjectTrain = subject_train.txt
+3. xTest = X_test.txt
+4. xTrain = X_train.txt
+5. yTest = Y_test.txt
+6. yTrain = Y_train.txt
+7. features = features.txt
+8. activityLabels = activity_labels.txt
+9. subjectAll = Merge subjectTest+subjectTrain
+10. xAll = Merge xTest+xTrain
+11. yAll = Merge yTest+yTrain
+12. complete = Merge subjectAll+xAll+yAll
+13. tidyComplete = Aggregated version of complete on average of features on each activity per subject
  
 
 
