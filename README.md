@@ -17,10 +17,10 @@
 
 ## Details of the script
 1. Read the subject test, subject train, x test, x train, y test, y train, features, and activity labels data from the downloaded zip file using the read.table() command.
-2a. Merge subject test with subject train, x test with x train, and y test with y train using the rbind() command.
-2b. Assign column headers merged Subject, X, and Y data sets.
-2c. Combine all data sets into single data set using cbind() command.
-3. Take a subset of the complete data set by only taking rows with “-mean” or “-std” string existing in the features.
-4. Assign activity labels using a ‘for loop’.
-5. Rename feature variables by decoding abbreviations.
-6. Create an output file that contains average of each activity per subject.
+2. Merge subject test with subject train, x test with x train, and y test with y train using the rbind() command.
+3. Assign column headers merged Subject, X, and Y data sets.
+4. Combine all data sets into single data set using cbind() command.
+5. Take a subset of the complete data set by only taking rows with “-mean” or “-std” string existing in the features.
+6. Assign activity labels using a ‘for loop’.
+7. Rename feature variables by decoding abbreviations.
+8. Create an output file that contains average of each activity per subject.
